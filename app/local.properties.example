@@ -1,0 +1,33 @@
+## ─────────────────────────────────────────────────────────────────
+## local.properties.example  —  SAFE TO COMMIT (no real keys here)
+## ─────────────────────────────────────────────────────────────────
+## HOW TO USE:
+##   1. Copy this file → local.properties
+##   2. Fill in YOUR keys below
+##   3. Never commit local.properties (it's in .gitignore)
+## ─────────────────────────────────────────────────────────────────
+
+# Android SDK path (auto-set by Android Studio)
+sdk.dir=/Users/YOUR_USERNAME/Library/Android/sdk
+
+# ── Google Maps API Key ───────────────────────────────────────────
+# Google Cloud Console → APIs & Services → Credentials
+# Enable "Maps SDK for Android" for this key
+MAPS_API_KEY=YOUR_MAPS_API_KEY_HERE
+
+# ── Firebase Realtime Database URL ───────────────────────────────
+# Firebase Console → Realtime Database → copy the URL
+FIREBASE_DB_URL=https://your-project-default-rtdb.firebaseio.com
+
+# ── Fast2SMS API Key (Free SMS gateway for India) ─────────────────
+# https://www.fast2sms.com → Dashboard → Dev API
+FAST2SMS_API_KEY=YOUR_FAST2SMS_API_KEY_HERE
+
+# ── FCM Server Key ────────────────────────────────────────────────
+# Firebase Console → Project Settings → Cloud Messaging → Server key
+FCM_SERVER_KEY=YOUR_FCM_SERVER_KEY_HERE
+
+## ─────────────────────────────────────────────────────────────────
+## Also place your google-services.json (from Firebase Console) at:
+##   app/google-services.json   (it is git-ignored too)
+## ─────────────────────────────────────────────────────────────────
